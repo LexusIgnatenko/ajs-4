@@ -4,7 +4,7 @@ branches:
   only:
     - main # ветка git
 cache; node_modules # кеширование
-instal:
+install:
   - npm install # команда установки зависимостей
 build: off
 test_script:
